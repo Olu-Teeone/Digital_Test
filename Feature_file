@@ -1,0 +1,292 @@
+
+   @DIGI-TEST1
+ 
+ Scenario 1: Verify Check on Vehincle Reg: SG18HTN
+ 
+  Given:link "https://cartaxcheck.co.uk/" to be browser
+
+  When: User submit the url on the browser
+
+  Then: cartaxcheck website is displayed
+
+  Given: Enter Reg number SG18HTN
+
+  When: User Click "Free Check" button
+
+  Then: the vehicle details are displayed
+
+  And: the user is able to view the following details
+
+
+	|Registration		| SG18HTN  									|
+	
+	|Make				| Volkswagen 								|
+	
+	|Model				| Golf Se Navigation Tsi Ev1o 				|
+	
+	|Color				| White	  									|
+	
+	|Year				| 2018										|
+
+
+   Scenario 1B: Verify Check on Vehincle Reg: SG18HTN
+ 
+  Given:link "www.webuyanycar.com" to be browser
+
+  When: User submit the url on the browser
+
+  Then: cartaxcheck website is displayed
+
+  Given: Enter Reg number DN09HRM
+
+  When: User Click "Free Check" button
+
+  Then: the vehicle details are displayed
+
+  And: the user is able to view the following details
+
+
+	|Registration		| SG18HTN  									|
+	
+	|Make				| Volkswagen 								|
+	
+	|Model				| Golf Se Navigation Tsi Ev1o 				|
+	
+	|Color				| White	  									|
+	
+	|Year				| 2018
+
+
+   @DIGI-TEST2
+
+ Scenario 2: Verify Check on Vehincle Reg: DN09HRM
+ 
+  Given:link "https://cartaxcheck.co.uk/" to be browser
+
+  When: User submit the url on the browser
+
+  Then: cartaxcheck website is displayed
+
+  Given: Enter Reg number DN09HRM
+
+  When: User Click "Free Check" button
+
+  Then: the vehicle details are displayed
+
+  And: the user is able to view the following details
+
+
+	|Registration		| DN09HRM 									|
+	
+	|Make				| BMW										|
+	
+	|Model				| 320D Se 									|
+	
+	|Color				| Black	  									|
+	
+	|Year				| 2009										|
+
+
+ Scenario 2B: Verify Check on Vehincle Reg: DN09HRM
+ 
+  Given:link "www.webuyanycar.com" to be browser
+
+  When: User submit the url on the browser
+
+  Then: cartaxcheck website is displayed
+
+  Given: Enter Reg number DN09HRM
+
+  When: User Click "Free Check" button
+
+  Then: the vehicle details are displayed
+
+  And: the user is able to view the following details
+
+
+
+	|Registration		| DN09HRM  									|
+	
+	|Make				| BMW 										|
+	
+	|Model				| 320D Se									|
+	
+	|Color				| Black  									|
+	
+	|Year				| 2009										|
+	
+	
+	@DIG-TEST3
+ Scenario 3: Verify Check on Vehincle Reg: BW57BOF
+ 
+  Given:link "https://cartaxcheck.co.uk/" to be browser
+
+  When: User submit the url on the browser
+
+  Then: cartaxcheck website is displayed
+
+  Given: Enter Reg number BW57BOF
+
+  When: User Click "Free Check" button
+
+  Then: the vehicle details are displayed
+
+  And: the user is able to view the following details
+
+
+	|Registration		| BW57BOF 									|
+	
+	|Make				| Toyota									|
+	
+	|Model				| Yaris T2 									|
+	
+	|Color				| Black	  									|
+	
+	|Year				| 2010										|
+
+
+  Scenario 3B: Verify Check on Vehincle Reg: BW57BOF
+ 
+  Given:link "www.webuyanycar.com" to be browser
+
+  When: User submit the url on the browser
+
+  Then: cartaxcheck website is displayed
+
+  Given: Enter Reg number BW57BOF
+
+  When: User Click "Free Check" button
+
+  Then: the vehicle details are displayed
+
+  And: the user is able to view the following details
+
+
+
+	|Registration		| BW57BOF  									|
+	
+	|Make				| Toyota 									|
+	
+	|Model				| Yaris T2									|
+	
+	|Color				| Black  									|
+	
+	|Year				| 2010										|
+
+
+   @DI1GI-TEST4
+
+ Scenario 4: Verify Check on Vehincle Reg: T17DLX
+ 
+  Given:link "https://cartaxcheck.co.uk/" to be browser
+
+  When: User submit the url on the browser
+
+  Then: cartaxcheck website is displayed
+
+  Given: Enter Reg number T17DLX
+
+  When: User Click "Free Check" button
+
+  Then: the vehicle details are displayed
+
+  And: the user is able to view the following details
+
+
+	|Registration		| T17DLX 									|
+	
+	|Make				| Skoda										|
+	
+	|Model				| Superb Sportline Tdi S-A					|
+	
+	|Color				| White	  									|
+	
+	|Year				| 2017										|
+
+
+ Scenario 4B: Verify Check on Vehincle Reg: T17DLX
+ 
+  Given:link "www.webuyanycar.com" to be browser
+
+  When: User submit the url on the browser
+
+  Then: cartaxcheck website is displayed
+
+  Given: Enter Reg number T17DLX
+
+  When: User Click "Free Check" button
+
+  Then: the vehicle details are displayed
+
+  And: the user is able to view the following details
+
+
+
+	|Registration		| T17DLX 									|
+	
+	|Make				| Skoda 									|
+	
+	|Model				| Superb Sportline Tdi S-A					|
+	
+	|Color				| White  									|
+	
+	|Year				| 2017										|
+
+
+
+		TEST RESULTS
+	TEST 1A | Expected Results    |Actual Results  | Pass/Fail      
+	
+	
+			|	As expected		| Car details can be viewed from the website	  | Pass	
+			
+	
+	TEST 1B | Expected Results    |Actual Results  | Pass/Fail      
+	
+	
+			|	As expected		| (1) Car details cannot be viewed from the website	  				| FAIL
+			| 					| (2) Website ask for the mileage before, the website can make progress	|
+ 
+ 
+ 	TEST 2A | Expected Results    |Actual Results  | Pass/Fail      
+	
+	
+			|	As expected		| Car details can be viewed from the website	  | Pass	
+			
+
+	TEST 2B | Expected Results    |Actual Results  | Pass/Fail      
+	
+	
+			|	As expected		| (1) Car details cannot be viewed from the website	  				    | FAIL
+			| 					| (2) Website ask for the mileage before, the website can make progress	|
+			
+			
+	TEST 3A | Expected Results    |Actual Results  | Pass/Fail      
+	
+	
+			|	As expected		| (1) Car details cannot be viewed from the website	  | FAIL
+			|					| (2) Vehincle not found							  | 				
+			
+
+	TEST 3B | Expected Results    |Actual Results  | Pass/Fail      
+	
+	
+			|	As expected		| (1) Car details cannot be viewed from the website	  					| FAIL
+			| 					| (2) Website ask for the mileage before, the website can make progress	|
+			
+			
+	TEST 4A | Expected Results    |Actual Results  | Pass/Fail      
+	
+	
+			|	As expected		| Car details can be viewed from the website	  | Pass	
+			
+	TEST 4B | Expected Results    |Actual Results  | Pass/Fail      
+	
+	
+			|	As expected		| (1) Car details cannot8 be viewed from the website	  				| FAIL
+			| 					| (2) Website ask for the mileage before, the website can make progress	|
+ 
+ 
+ 
+ 
+ 	
